@@ -21,6 +21,8 @@ export default function DropdownComponent() {
             >
                 <option value="Agency">Agency</option>
                 <option value="Platform">Platform</option>
+                <option value="Agency">Labs</option>
+                <option value="Platform">Extension</option>
             </select>
         </div>
     );
