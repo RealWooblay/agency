@@ -1,8 +1,10 @@
 "use client"
 
 import { FormEvent, useState } from "react"
+import Confetti from 'react-confetti'
 
 export const ContactForm = () => {
+
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
@@ -30,6 +32,7 @@ export const ContactForm = () => {
 
     return (
         <form onSubmit={onSubmit}>
+            <Confetti />
             <input onChange={e => setName(e.target.value)} value={name} type="text" placeholder="Firstname:" />
             <input onChange={e => setEmail(e.target.value)} value={email} type="email" placeholder="Email:" />
             <textarea onChange={e => setMessage(e.target.value)} value={message}></textarea>
