@@ -19,7 +19,7 @@ export default function Navbar() {
                     <li className="hover:text-lime-400"><Link href={'/origins'}>Origins</Link></li>
                     <li className="relative pl-20">
                         <span className="block border-lime-400 border text-xl rounded px-2 py-1">
-                            <Link href={'/'}>Join Us</Link>
+                            <Link href={'/contact'}>Join Us</Link>
                         </span>
                     </li>
                 </ul>

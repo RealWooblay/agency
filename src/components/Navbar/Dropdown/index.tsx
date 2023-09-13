@@ -16,13 +16,11 @@ export default function DropdownComponent() {
     return (
         <div className="relative pl-10">
             <select
-                className="w-full text-white bg-transparent text-xl"
+                className="w-full text-white bg-stone-800 text-xl"
                 onChange={handleOptionChange}
             >
                 <option value="Agency">Agency</option>
                 <option value="Platform">Platform</option>
-                <option value="Agency">Labs</option>
-                <option value="Platform">Extension</option>
             </select>
         </div>
     );

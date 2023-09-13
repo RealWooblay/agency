@@ -19,15 +19,13 @@ export default function Petise() {
                     electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
                     sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
                     versions of Lorem Ipsum</p>
-                <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                    <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                        Details ➜
-                    </span>
+                <button className="btn btn-outline btn-info pr-10 pl-10">
+                    Details ➜
                 </button>
             </div>
 
             <div className="w-1/2">
-                <a href="#" className="mb-10 flex flex-col items-center border-gray-800 bg-gray-900 border rounded-lg shadow md:flex-row md:max-w-xl hover:bg-violet-950">
+                <a href="#" className="p-4 mb-10 flex flex-col items-center border-blue-400 bg-green-800 border rounded-lg shadow md:flex-row md:max-w-xl hover:bg-green-900">
                     <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="https://online.hbs.edu/Style%20Library/api/resize.aspx?imgpath=/PublishingImages/overhead-view-of-business-strategy-meeting.jpg&w=1200&h=630" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Business</h5>
@@ -35,7 +33,7 @@ export default function Petise() {
                     </div>
                 </a>
 
-                <a href="#" className="mb-10 flex flex-col items-center border-gray-800 bg-gray-900 border rounded-lg shadow md:flex-row md:max-w-xl hover:bg-violet-950">
+                <a href="#" className="p-4 mb-10 flex flex-col items-center border-blue-400 bg-green-800 border rounded-lg shadow md:flex-row md:max-w-xl hover:bg-green-900">
                     <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="https://www.feedough.com/wp-content/uploads/2016/08/what-is-brand.png" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Brand</h5>
@@ -43,7 +41,7 @@ export default function Petise() {
                     </div>
                 </a>
 
-                <a href="#" className="flex flex-col items-center border-gray-800 bg-gray-900 border rounded-lg shadow md:flex-row md:max-w-xl hover:bg-violet-950">
+                <a href="#" className="p-4 flex flex-col items-center border-blue-400 bg-green-800 border rounded-lg shadow md:flex-row md:max-w-xl hover:bg-green-900">
                     <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="https://www.millertanner.com/wp-content/uploads/2022/05/shutterstock_758264113.jpg" alt="" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Personal</h5>

@@ -1,8 +1,10 @@
+import Navbar from '@/components/Navbar';
 import { ContactForm } from '../../form';
 
 export default function contact() {
     return (
-        <main className="mt-16 mx-auto max-w-4xl">
+        <main className="text-white container mx-auto px-14">
+            <Navbar />
             <ContactForm />
         </main>
     )
